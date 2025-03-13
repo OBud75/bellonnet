@@ -1,0 +1,22 @@
+1.FileSystem
+
+1) mkdir assets
+
+2) cd assets/ 
+   touch img_{1..10}.png
+
+3) echo "Hello, world" > du_texte.txt
+
+4) for i in img_*.png; do mv "$i" "${i%.png}.jpeg"; done
+
+5) mkdir medias
+
+6) .png : Format d'image sans perte
+   .jpeg : Format d'image compressé avec perte
+   .txt : Format de fichier texte qui sert uniquement à créer du texte brut
+
+7) echo -e '#!/usr/bin/bash\n\necho "Hello world"' > script
+   chmod +x script
+   
+8) #!/usr/bin/bash est un shebang. Cela indique quel interpréteur utiliser pour exécuter le script. Alors que avec bash script, on spécifie manuellement l'interpréteur bash donc pas besoin du shebang
+

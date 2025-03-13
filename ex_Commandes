@@ -1,0 +1,23 @@
+2.Commandes
+
+1) mkdir commandes
+
+2) cd commandes
+   for i in {1..100}; do echo "Ligne $i" >> too_long; done
+   
+3) head -n 5 too_long
+
+4) tail -n 7 too_long
+
+5) sort -nr -k2,2 too_long | head -n 3
+
+6) sed -n '42p' too_long
+
+7) sed -i '42s/.*/The Ultimate Question of Life, the Universe and Everything/' too_long
+
+8) fichier ex_commande_script
+
+9) if/else permet de tester une condition spécifique (selon un resultat comme vrai ou faux) alors que un switch permet de tester plusieurs valeurs possibles d'une variable. Switch est plus pratique pour tester plusieurs cas spécifiques.
+
+10) fichier ex_commande_script
+

@@ -1,0 +1,25 @@
+9.Web
+
+1) http est protocole de communication utilisé pour transférer des données sur Internet cependant il est non securisé
+   https est la version securisé de http
+
+2) curl, postman
+
+3) port 80 : http
+   port 22 : ssh
+   port 443 : https
+   
+4) sudo ufw enable   sudo ufw disable
+   sudo ufw status verbose
+
+5) -Agir en tant que revser proxy
+   -Heberger des pages web statiques
+   -Gerer la securisation des connexions via https
+   
+6) MVC signifie Model-View-Controller
+   Avantage : Séparation des préoccupations : facilite la maintenance et le développement
+   	      Réutilisabilité du code
+   	      Flexibilité
+7) CRUD signifie Create, Read, Update, Delete
+
+8) Avec curl : curl https://www.google.com

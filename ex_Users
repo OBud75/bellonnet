@@ -1,0 +1,27 @@
+3.Users 
+
+1) cut -d: -f1 /etc/passwd
+
+2) sudo adduser --allow-bad-names Toto
+
+3) groups Toto
+
+4) sudo groupadd shared
+   sudo usermod -aG shared Toto
+   sudo usermod -aG shared matteo
+  
+5) Le préfixe sudo permet d'exécuter une commande avec les privilèges administrateur
+
+6) Non, que les utilisateurs admin
+
+7) sudo visudo
+   Toto  ALL=(ALL) NOPASSWD: /usr/bin/apt install
+
+8) Toto  ALL=(ALL) ALL
+
+9) Travailler en tant que root expose la machine à des failles de sécurité potentielles
+
+10) sudo nano /home/Toto/.bashrc
+    echo "Bienvenue Toto"
+
+

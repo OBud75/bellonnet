@@ -1,0 +1,8 @@
+6.Systemctl
+
+1) sudo systemctl daemon-reload
+
+2) sudo systemctl start nom_srv
+   sudo systemctl stop nom_srv
+
+3) start demarre un service qui n'est pas en cours tandis que restart arrete puis redemarre un service

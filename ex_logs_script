@@ -1,0 +1,6 @@
+#!/bin/bash
+
+LOG_FILE="logs"
+
+echo "$(date) - Utilisateur : $(whoami)" >> $LOG_FILE
+

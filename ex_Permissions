@@ -1,0 +1,18 @@
+4.Permissions
+
+1) mkdir shared
+
+2) sudo chown Toto:Toto shared/
+
+3) su Toto
+   echo "echo toto" > owned_by_toto
+   
+4) sudo chown Toto:Toto owned_by_toto
+
+5) vim owned_by_toto   et ajouter #!/usr/bin/bash en haut du fichier
+
+6) chmod +x owned_by_toto
+
+7) Cette commande donne au groupe propriétaire du fichier owned_by_toto la permission de l'exécuter
+
+8) Cette commande change le propriétaire du fichier owned_by_toto pour l'utilisateur root et le groupe root

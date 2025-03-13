@@ -1,0 +1,36 @@
+5.Environnement
+
+1) mkdir environ
+
+2) ex_environnement_script
+
+3) ex_environnement_script
+
+4) python3 -m venv pythonvenv
+   source pythonvenv/bin/activate
+   pip install flask
+   pip freeze > requirements.txt
+
+5) Génère un fichier requirements.txt qui contient toutes les bibliothèques Python installées dans l'environnement virtuel avec leurs versions exactes permettant de recréer facilement l'environnement sur une autre machine.
+
+6) echo "pythonvenv/" > .gitignore
+
+7) Le .gitignore indique à Git de ne pas suivre les fichiers et dossiers listés.
+
+8) pycache/ (fichiers de cache Python)
+   *.pyc (fichiers Python compilés)	
+   .env (variables d'environnement sensibles)
+   
+9) apt update : met à jour la liste des paquets disponible dans les depots
+   apt upgarde : et à jour tous les paquets installés qui ont une nouvelle version disponible dans les dépôts.	
+
+10) apt clean : supprime tout le cache.
+    apt autoclean : supprime les paquets inutiles du cache.
+    apt autoremove : supprime les dépendances non utilisées.
+    apt purge : supprime un paquet ainsi que ses fichiers de configuration.
+
+
+
+
+   
+
