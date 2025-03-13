@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+check_argv() {
+  if [ -z "$argument" ]; then
+    return 0
+  else
+    return 1
+  fi
+}
+
+echo "Dit moi quelque chose :"
+read argument
+
+check_argv "$argument"
+result=$?
+
+echo "Argument passé : $result"
+
+case "$argument" in
+  "hello")
+    echo "Argument passé est hello"
+    ;;
+  "toto")
+    echo "Argument passé est toto"
+    ;;
+  *)
+    echo "Argument passé est autre chose que hello ou toto"
+    ;;
+esac
