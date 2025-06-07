@@ -8,6 +8,9 @@
     On va a la ligne on cherche la ligne SystemMaxUse puis SystemMaxUse = 200M
     sudo systemctl restart systemd-journald pour appliquer 
 
+# Il est possible de simplifier la manipulation du fichier avec
+# sudo systemctl edit systemd-journald
+
 4) sudo gedit /etc/logrotate.d/nginx
      monthly               
      rotate 12             
