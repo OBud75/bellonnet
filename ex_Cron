@@ -7,3 +7,8 @@
 3) cron.weekly/ : Ce dossier contient les scripts qui seront exécutés une fois par semaine.
    cron.hourly/ : Ce dossier contient les scripts qui seront exécutés une fois par heure.
    cron.monthly/ : Ce dossier contient les scripts qui seront exécutés une fois par mois.	
+
+# Il existe quelques spécificités : 
+# Dans la logique, les taches .weekly, hourly, monthly sont le plus souvent effectuées par le système (souvent par root).
+# Alors que les autres sont souvent executées par un utilisateur (postgres, nginx, un humain etc).
+# Dernier détail : sur certaines distributions, les taches liées à un utilisateur sont dans /var
