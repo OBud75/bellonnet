@@ -18,6 +18,9 @@
 8) fichier ex_commande_script
 
 9) if/else permet de tester une condition spécifique (selon un resultat comme vrai ou faux) alors que un switch permet de tester plusieurs valeurs possibles d'une variable. Switch est plus pratique pour tester plusieurs cas spécifiques.
+# Important de noter qu'un if/else va essayer tous les if 1 par 1, la où un switch fonctionne un peu plus comme un dictionnaire.
+# Dans la pratique, si tous les cas de figure ont +/- autant de chance d'arriver, on préfèrera un switch
+# Mais si un cas de figure arrive plus souvent que les autres, autant faire un if qui vérifie ce cas de figure et "sauter" le rèste du code.
 
 10) fichier ex_commande_script
 
